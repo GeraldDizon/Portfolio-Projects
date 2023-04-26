@@ -29,7 +29,7 @@ p{
 
 /* Hero */
 .bg-image {
-    background-image: url('images/Hero-X.jpg') !important; 
+    background: url('images/Hero-X.jpg'); 
     background-repeat: no-repeat;
     background-position: right;
     height: 750px;
