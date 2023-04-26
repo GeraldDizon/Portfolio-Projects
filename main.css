@@ -29,9 +29,9 @@ p{
 
 /* Hero */
 .bg-image {
+    background-image: url('images/Hero-X.jpg') !important; 
     background-repeat: no-repeat;
     background-position: right;
-    background-image: url('images/Hero-X.jpg') !important; 
     height: 750px;
 }
 @media (max-width: 767px){
