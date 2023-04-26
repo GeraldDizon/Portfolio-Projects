@@ -31,7 +31,7 @@ p{
 .bg-image {
     background-repeat: no-repeat;
     background-position: right;
-    background-image: url('images/Hero-X.jpg'); 
+    background-image: url('/images/Hero-X.jpg'); 
     height: 750px;
 }
 @media (max-width: 767px){
