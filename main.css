@@ -1,0 +1,56 @@
+* {
+    font-size: 100%;
+    font-family: Roboto;
+   }
+
+/* Fold Spacing */
+.empty-space{
+    height:90px;
+}
+
+/* Fonts */
+a.btn {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 25px;
+}
+h1 { /* Use this for hero only*/
+    font-weight: 600 !important; 
+    font-size: 50px !important;
+}
+h2 { /* Use this for title folds */
+    font-weight: 600 !important;
+    font-size:38px !important;
+}
+p{
+    line-height: 2;
+}
+/* Fonts */
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.hero-title{
+    color:#444;
+}
+.hero-text{
+    color:#444;
+}
+.hero-button {
+    display: flex;
+    column-gap: 30px;
+    align-items: flex-start;
+}
+
+/* Accordion */
+.accordion-button {
+    background-color: #444 !important;
+    color: #fff !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 0px !important;
+}
+.accordion-body {
+    padding: 50px !important;
+}
