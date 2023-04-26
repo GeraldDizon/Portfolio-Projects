@@ -14,7 +14,7 @@
 <body>
     <header>
     <!-- Navigation -->
-        <nav class="navbar navbar-dark fixed-top my-3">
+        <nav class="navbar navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand text-dark" href="#" style = "font-size:35px; margin-bottom:0px; font-weight:600">&lt;/ &gt;</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -47,10 +47,6 @@
                     </ul>
                 </li>
                 </ul>
-                <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-                </form>
             </div>
             </div>
         </div>
@@ -58,22 +54,47 @@
     <!-- Navigation -->
 
     <!-- Hero -->
-    <div class="p-3 bg-image d-flex justify-content-center align-items-center" style="background-image: url('images/Hero-X.jpg'); height: 750px;">
+    <div class = "d-sm-block d-none">
+        <div class="p-3 bg-image d-flex justify-content-center align-items-center">
+            <div class ="container">
+                <div class ="row">
+                    <div class = "col-sm-12 col-md-6 d-flex justify-content-center flex-column">
+                        <h1 class="mb-4 hero-title font-weight-bold">Quisque Non Sodales</h1>
+                        <p class="mb-5 hero-text">Sed est erat, tincidunt sit amet odio eget, commodo iaculis mi. Fusce gravida non nunc eget accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        <div class = "hero-button">
+                            <a href="#" class="btn  btn-lg btn-outline-dark rounded mr-4" role="button">KNOW MORE</a>
+                            <a href="#" class="btn btn-secondary btn-lg btn-danger rounded" role="button">CONTACT US</a>
+                        </div>
+                        <!--<a href ="#">Facebook</a> . <a href ="#">Twitter</a> . <a href ="#">Instagram</a>-->
+                    </div>
+                    <div class = "col-sm-12 col-md-6">
+                        <div class = "text-center">
+                            <img class = "img-fluid" src ="images/Hero-Image.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero -->
+
+    <!-- Hero -->
+    <div class="p-3 bg-image d-flex justify-content-center align-items-center d-block d-sm-none">
         <div class ="container">
             <div class ="row">
-                <div class = "col-12 col-md-6 d-flex justify-content-center flex-column">
-                    <h1 class="mb-4 hero-title font-weight-bold">Quisque Non Sodales</h1>
-                    <p class="mb-5 hero-text">Sed est erat, tincidunt sit amet odio eget, commodo iaculis mi. Fusce gravida non nunc eget accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    <div class = "hero-button">
-                        <a href="#" class="btn  btn-lg btn-outline-dark rounded mr-4" role="button">KNOW MORE</a>
-                        <a href="#" class="btn btn-secondary btn-lg btn-danger rounded" role="button">CONTACT US</a>
-                    </div>
-                    <!--<a href ="#">Facebook</a> . <a href ="#">Twitter</a> . <a href ="#">Instagram</a>-->
-                </div>
-                <div class = "col-12 col-md-6">
+                <div class = "col-sm-12 col-md-6 mb-3">
                     <div class = "text-center">
                         <img class = "img-fluid" src ="images/Hero-Image.png">
                     </div>
+                </div>
+                <div class = "col-sm-12 col-md-6 d-flex justify-content-center flex-column">
+                    <h1 class="mb-4 hero-title font-weight-bold text-white">Quisque Non Sodales</h1>
+                    <p class="mb-5 hero-text text-white">Sed est erat, tincidunt sit amet odio eget, commodo iaculis mi. Fusce gravida non nunc eget accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <div class = "hero-button">
+                        <a href="#" class="btn  btn-lg btn-outline-light rounded mr-4" role="button">KNOW MORE</a>
+                        <a href="#" class="btn btn-secondary btn-lg btn-danger rounded" role="button">CONTACT US</a>
+                    </div>
+                    <!--<a href ="#">Facebook</a> . <a href ="#">Twitter</a> . <a href ="#">Instagram</a>-->
                 </div>
             </div>
         </div>
