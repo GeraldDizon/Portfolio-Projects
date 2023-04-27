@@ -5,7 +5,7 @@
 
 /* Fold Spacing */
 .empty-space{
-    height:90px;
+    height:120px;
 }
 
 /* Fonts */
@@ -25,7 +25,44 @@ h2 { /* Use this for title folds */
 p{
     line-height: 2;
 }
+h4 {
+    color:#dc3545 !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+}
 /* Fonts */
+
+/* Navigation*/
+.fixed-top.scrolled {
+    background-color: #4a4a4a !important;
+    transition: background-color 300ms linear;
+}
+.fixed-top { 
+    transition: background-color 300ms linear; 
+}
+.navbar-brand {
+    color:#4a4a4a !important;
+}
+.navbar-brand.colored {
+    color:#fff !important;
+    transition: color 300ms linear;
+}
+.navbar-brand.colored {
+    transition: color 300ms linear;
+}
+.navbar-toggler:focus{
+    box-shadow:unset !important;
+}
+.navbar-toggler{
+    border:unset !important;
+}
+@media (max-width: 767px){
+    .navbar-brand {
+        color:#fff !important;
+    }
+}
+
 
 /* Hero */
 .bg-image {
