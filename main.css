@@ -5,7 +5,7 @@
 
 /* Fold Spacing */
 .empty-space{
-    height:120px;
+    height:80px;
 }
 
 /* Fonts */
@@ -27,9 +27,9 @@ p{
 }
 h4 {
     color:#dc3545 !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
     text-transform: uppercase;
-    font-weight: 500 !important;
+    font-weight: 700 !important;
 }
 /* Fonts */
 
@@ -66,10 +66,21 @@ h4 {
 
 /* Hero */
 .bg-image {
-    background: url('images/Hero-X.jpg'); 
+    background: url('images/Hero-X.png'); 
     background-repeat: no-repeat;
     background-position: right;
     height: 750px;
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .bg-image {
+        background-position: 255px;
+    }
+}
+.bg-icon-box{
+    background: url('images/icon.png'); 
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size:2%;
 }
 @media (max-width: 767px){
     .bg-image {
@@ -88,16 +99,74 @@ h4 {
     column-gap: 30px;
     align-items: flex-start;
 }
+.socials a{
+    text-decoration:none;
+    color:#444;
+}
+.socials-mobile a, .socials-mobile p{
+    color:#fff;
+    text-decoration:none;
+}
 /* Hero */
 
 /* Accordion */
 .accordion-button {
-    background-color: #444 !important;
     color: #fff !important;
-    padding-left: 25px;
-    padding-right: 25px;
     border-radius: 0px !important;
+    padding: 35px !important;
+    font-size: 17px !important;
+}
+.acc-bg-1{
+    background: url(images/bg1.jpg) !important;
+    background-size: cover !important;
+}
+.acc-bg-2{
+    background: url(images/bg2.jpg) !important;
+    background-size: cover !important;
+}
+.acc-bg-3{
+    background: url(images/bg3.jpg) !important;
+    background-size: cover !important;
 }
 .accordion-body {
-    padding: 50px !important;
+    padding: 30px 30px 20px 30px !important;
+}
+.accordion-button:focus {
+    border-color:none !important;
+    outline: 0;
+    box-shadow:none !important;
+}
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }
+.accordion-item {
+    margin-bottom: 15px;
+}
+
+/* Projects */
+.bg-projects{
+    background: url(images/bg.jpg) !important;
+    background-size: cover !important;
+}
+
+.controls {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    left: 0;    
+    background: #333;
+    width: 100%;    
+    top: 50%;
+    transform: translatey(-50%);
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    &:focus {
+        outline: none;
+    }
+
+    li:hover {
+        cursor: pointer;        
+    }
 }
