@@ -99,6 +99,14 @@ h4 {
     column-gap: 30px;
     align-items: flex-start;
 }
+.btn-outline-dark:hover {
+    background-color: #444 !important;
+    border-color: #fff !important;
+}
+.btn-outline-dark {
+    border-color: #444 !important;
+    color: #444 !important;
+}
 .socials a{
     text-decoration:none;
     color:#444;
