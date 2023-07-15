@@ -102,6 +102,7 @@ h4 {
 .btn-outline-dark:hover {
     background-color: #444 !important;
     border-color: #fff !important;
+    color:#fff !important;
 }
 .btn-outline-dark {
     border-color: #444 !important;
