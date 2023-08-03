@@ -100,9 +100,9 @@ h4 {
     align-items: flex-start;
 }
 .btn-outline-dark:hover {
+    color:#fff !important;
     background-color: #444 !important;
     border-color: #fff !important;
-    color:#fff !important;
 }
 .btn-outline-dark {
     border-color: #444 !important;
